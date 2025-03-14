@@ -1,0 +1,28 @@
+{
+  "content": "Indusface-WAS-Plugin | Jenkins pluginIndusface-WAS-PluginHow to installDocumentationReleasesIssuesDependenciesHealth Score Overview The Indusface WAS Scan Plugin enhances your Jenkins pipelines with automated security scanning, helping you identify and address vulnerabilities early in the development cycle. By integrating seamlessly into CI/CD workflows, this plugin ensures that security is part of your development process. Key Features Automated Scanning: Triggers security scans automatically during the build process. Real-time Insights: Delivers clear and concise scan results. Proactive Security: Option to fail builds based on configurable security thresholds. Quick Start 1. Install the Plugin Download and install the Indusface-WAS-Plugin plugin from the Jenkins Update Center. 2. Configure the Jenkins Job Enable the plugin in your Jenkins job's Post-build Actions. You can either create a new job or modify an existing one. 3. Enable the Plugin In the Post-build Actions section, select the Indusface Was Scan. 4. Provide Application Details Enter the web application name and access key required for scanning. 5. Run the Job Once the application build succeeds, the scan will automatically start. 6. Monitor the Scan Track the progress and results in the WAS Scan report section based on the pre-configured pass/fail criteria. Benefits Faster Time to Market: Identify and fix security issues early in the development cycle. Enhanced Security Posture: Strengthen your application's defenses. Improved Code Quality: Maintain high standards throughout the development lifecycle. Contributing We welcome community contributions! To contribute: Fork this repository. Make your changes. Submit a pull request to help us improve this plugin. Support For issues, questions, or feedback, please submit an issue in the GitHub repository or contact the plugin maintainers. License This plugin is open-source and licensed under the MIT License. Version: 1.35.vc2d1dc2b_5425Released: 2 months agoRequires Jenkins 2.462.1ID: indusface-wasNo usage data availableLinksGitHubOpen issues (Jira)Report an issue (Jira)Pipeline Step ReferenceJavadocLabelsThis plugin has no labelsMaintainersIndusfaceHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "Indusface-WAS-Plugin | Jenkins plugin",
+  "headers": [
+    "Indusface-WAS-Plugin",
+    "Overview",
+    "Key Features",
+    "Quick Start",
+    "1. Install the Plugin",
+    "2. Configure the Jenkins Job",
+    "3. Enable the Plugin",
+    "4. Provide Application Details",
+    "5. Run the Job",
+    "6. Monitor the Scan",
+    "Benefits",
+    "Contributing",
+    "Support",
+    "License"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/indusface-was/releases/",
+    "https://plugins.jenkins.io/indusface-was/issues/",
+    "https://plugins.jenkins.io/indusface-was/dependencies/",
+    "https://plugins.jenkins.io/indusface-was/healthscore/",
+    "https://www.jenkins.io/doc/pipeline/steps/indusface-was",
+    "https://plugins.jenkins.io/ui/search/?query=indusface_jenkins_plugin"
+  ]
+}

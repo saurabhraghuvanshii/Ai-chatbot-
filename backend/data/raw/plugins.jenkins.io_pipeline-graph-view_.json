@@ -1,0 +1,20 @@
+{
+  "content": "Pipeline Graph View | Jenkins pluginPipeline Graph ViewHow to installDocumentationReleasesIssuesDependenciesHealth Score Introduction This plugin provides new Action and View to view a WorkflowRun via the \"Pipeline Graph\" visualization that was popularized in the Blue Ocean plugin. Getting started Install the pipeline-graph-view plugin Go to a pipeline run (not a job page) Click 'Pipeline Overview' Screenshots Basic pipeline: Semi-complex pipeline: Video See a live demonstration from a Jenkins Contributor Summit: Vision This plugin aims to bring the best of Blue Ocean into the regular Jenkins UI. That means functionality like: Pipeline graph Summary of runs in a job (like Pipeline Stage View Plugin, but simpler, more modern and more performant) Modern logs viewing The plugin should be lightweight, using or providing extension points where possible rather than building everything into one plugin. Contributing Any help is much appreciated, the frontend code is written in React, the backend code is in Java, designers would be greatly appreciated as well. Refer to our contribution guidelines Version: 423.v765c49ca_da_3fReleased: 2 weeks agoRequires Jenkins 2.479.1ID: pipeline-graph-viewInstalled on 24.2% of\u00a0controllersView detailed version informationLinksGitHubOpen issues (Github)Report an issue (Github)JavadocLabelsThis plugin has no labelsMaintainersTim JacombHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "Pipeline Graph View | Jenkins plugin",
+  "headers": [
+    "Pipeline Graph View",
+    "Introduction",
+    "Getting started",
+    "Screenshots",
+    "Video",
+    "Vision",
+    "Contributing"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/pipeline-graph-view/releases/",
+    "https://plugins.jenkins.io/pipeline-graph-view/issues/",
+    "https://plugins.jenkins.io/pipeline-graph-view/dependencies/",
+    "https://plugins.jenkins.io/pipeline-graph-view/healthscore/",
+    "https://plugins.jenkins.io/ui/search/?query=timja"
+  ]
+}

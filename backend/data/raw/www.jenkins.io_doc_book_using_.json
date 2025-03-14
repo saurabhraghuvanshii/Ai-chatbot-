@@ -1,0 +1,38 @@
+{
+  "content": "Using Jenkins > User Documentation Home User Handbook User Handbook Overview Installing Jenkins Platform Information Using Jenkins Best Practices Working with projects Using credentials Command Palette Referencing another project by name Aborting a build Fingerprints Using local language Change time zone Remote Access API Executor Starvation Using Jenkins agents Using JMeter with Jenkins Pluggable Storage Pipeline Blue Ocean Managing Jenkins Securing Jenkins System Administration Scaling Jenkins Troubleshooting Jenkins Glossary Tutorials Guided Tour Jenkins Pipeline Using Build Tools Resources Pipeline Syntax reference Pipeline Steps reference LTS Upgrade guides \u00e2\u0087\u0090 Platform Information Index Best Practices \u00e2\u0087\u0092 Using Jenkins Chapter Sub-Sections Best Practices Working with projects Using credentials Command Palette Referencing another project by name Aborting a build Fingerprints Using local language Change time zone Remote Access API Executor Starvation Using Jenkins agents Using JMeter with Jenkins Pluggable Storage This chapter contains topics for typical Jenkins users (of all skill levels) about Jenkins usage which is outside the scope of the core Jenkins features: Pipeline and Blue Ocean. If you want to create and configure a Pipeline project through a Jenkinsfile or through Blue Ocean, or you wish to find out more about these core Jenkins features, refer to the relevant topics within the respective Pipeline and Blue Ocean chapters. If you are a Jenkins administrator and want to know more about managing Jenkins nodes and instances, see Managing Jenkins. If you are a system administrator and want to learn how to back-up, restore, maintain as Jenkins servers and nodes, see Jenkins System Administration. If you are a Jenkins user looking for some troubleshooting tips, see Troubleshooting Jenkins For an overview of content in the Jenkins User Handbook, see User Handbook Overview. \u00e2\u0087\u0090 Platform Information Index Best Practices \u00e2\u0087\u0092 Was this page helpful? Please submit your feedback about this page through this quick form. Alternatively, if you don't wish to complete the quick form, you can simply indicate if you found this page helpful? Yes No Submit See existing feedback here.",
+  "title": "\nUsing Jenkins\n",
+  "headers": [
+    "\nUsing Jenkins\n"
+  ],
+  "links": [
+    "https://www.jenkins.io/doc/book/using/best-practices/",
+    "https://www.jenkins.io/doc/book/using/working-with-projects/",
+    "https://www.jenkins.io/doc/book/using/using-credentials/",
+    "https://www.jenkins.io/doc/book/using/searchbox/",
+    "https://www.jenkins.io/doc/book/using/referencing-another-project-by-name/",
+    "https://www.jenkins.io/doc/book/using/aborting-a-build/",
+    "https://www.jenkins.io/doc/book/using/fingerprints/",
+    "https://www.jenkins.io/doc/book/using/using-local-language/",
+    "https://www.jenkins.io/doc/book/using/change-time-zone/",
+    "https://www.jenkins.io/doc/book/using/remote-access-api/",
+    "https://www.jenkins.io/doc/book/using/executor-starvation/",
+    "https://www.jenkins.io/doc/book/using/using-agents/",
+    "https://www.jenkins.io/doc/book/using/using-jmeter-with-jenkins/",
+    "https://www.jenkins.io/doc/book/using/pluggable-storage/",
+    "https://www.jenkins.io/doc/book/pipeline/",
+    "https://www.jenkins.io/doc/book/blueocean/",
+    "https://www.jenkins.io/doc/book/managing/",
+    "https://www.jenkins.io/doc/book/security/",
+    "https://www.jenkins.io/doc/book/system-administration/",
+    "https://www.jenkins.io/doc/book/scaling/",
+    "https://www.jenkins.io/doc/book/troubleshooting/",
+    "https://www.jenkins.io/doc/book/glossary/",
+    "https://www.jenkins.io/doc/pipeline/tour/getting-started/",
+    "https://www.jenkins.io/doc/tutorials#pipeline",
+    "https://www.jenkins.io/doc/tutorials#tools",
+    "https://www.jenkins.io/doc/book/pipeline/syntax/",
+    "https://www.jenkins.io/doc/pipeline/steps/",
+    "https://www.jenkins.io/doc/upgrade-guide/",
+    "https://www.jenkins.io/doc/feedback-form/"
+  ]
+}

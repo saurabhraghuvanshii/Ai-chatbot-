@@ -1,0 +1,23 @@
+{
+  "content": "Schedule Build | Jenkins pluginSchedule BuildHow to installDocumentationReleasesIssuesDependenciesHealth Score Adds capability to schedule a build for a later point in time. Asks the user for a date and time and adds the build to the build queue with the respective quiet period. Scheduling Builds Press the \"Schedule Build\" link on the project page or use the schedule build action in the list view. Then select date and time when to schedule the build. The build will be added to the build queue with the respective quiet period. Configure Schedule Build Plugin The configuration of the schedule build plugin is very simple. There are only two parameters on the Jenkins system configuration page. The default time which is set when a user wants to schedule a build may be configured and time zone used by the plugin, which might differ from the system time zone. Configuration as code This plugin supports configuration as code Add to your yaml file: unclassified: scheduleBuild: defaultStartTime: \"11:00:00 PM\" timeZone: \"Europe/Paris\" Release Notes For recent versions, see GitHub Releases For versions 0.5.0 and older, see the changelog archive Report an Issue Please report issues and enhancements through the Jenkins issue tracker. Version: 649.vd4058b_a_a_cf54Released: about an hour agoRequires Jenkins 2.479.3ID: schedule-buildInstalled on 2.21% of\u00a0controllersView detailed version informationLinksGitHubOpen issues (Jira)Report an issue (Jira)JavadocLabelsList view columnsMaintainersAndreas KMartin SpielmannMark WaiteDarin PopeHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "Schedule Build | Jenkins plugin",
+  "headers": [
+    "Schedule Build",
+    "Scheduling Builds",
+    "Configure Schedule Build Plugin",
+    "Configuration as code",
+    "Release Notes",
+    "Report an Issue"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/schedule-build/releases/",
+    "https://plugins.jenkins.io/schedule-build/issues/",
+    "https://plugins.jenkins.io/schedule-build/dependencies/",
+    "https://plugins.jenkins.io/schedule-build/healthscore/",
+    "https://plugins.jenkins.io/ui/search/?labels=listview-column",
+    "https://plugins.jenkins.io/ui/search/?query=anderl86",
+    "https://plugins.jenkins.io/ui/search/?query=pingunaut",
+    "https://plugins.jenkins.io/ui/search/?query=markewaite",
+    "https://plugins.jenkins.io/ui/search/?query=darinpope"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "content": "Audit Trail | Jenkins pluginAudit TrailHow to installDocumentationReleasesIssuesDependenciesHealth Score This plugin keeps a log of who performed particular Jenkins operations, such as configuring jobs. This plugin adds an Audit Trail section in the main Jenkins configuration page. On this page, you can configure log destination and settings (eg file size and number of rotating log files), and a URI pattern for requests to be logged. The default options select most actions with significant effect such as creating/configuring/deleting jobs and views or delete/save-forever/start a build. The log is sent to the target as configured (writen to disk, to console, sent to Elastic Search or Syslog). Also see the JobConfigHistory Plugin for recording actual changes made to job configurations. Logger Configuration File logger Output audit logs in rolling files. The file logger relies on java.util.logging.FileHandler and can use patterns to describe the log file location as documented here (%h, %g\u2026\u200b). A separator can be set for the file logger in case further parsing of the file is done. Default separator is a space. Syslog logger Send audit logs to a Syslog server. Console logger Output audit logs in stdout or stderr. Primarily intended for debugging purpose. Elastic Search logger Send audit logs to an Elastic Search server Other configuration Log build triggers Will log the cause of a build. Defaults to true. Log credential users Will log usage of credentials as long as they are consumed through the Credentials plugin. Defaults to true. About the client IP-address appearing in the logs The plugin uses a method that cannot guarantee that the actual IP of the client is captured. More details Be aware of this limitation, especially if your instance is configured behind a reverse proxy. For getting client IP-address correctly it\u2019s required to set HTTP-header X-Forwarded-For on the reverse proxy side. Also follow these recommendations in order to get round this limitation. Changelog From version 2.5 on, changelog is automatically generated using release-drafter. See directly the\u00a0GitHub release page for the plugin. For older releases, have a look to the archive. Version: 395.vce180b_359a_b_5Released: about 13 hours agoRequires Jenkins 2.479.3ID: audit-trailInstalled on 3.50% of\u00a0controllersView detailed version informationLinksGitHubOpen issues (Jira)Report an issue (Jira)Extension PointsJavadocLabelsadministrative-monitorloggingAuthentication and User ManagementMaintainersCyrille Le ClercTomasz S\u0119kPierre BeitzHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.Previous Security WarningsXSS vulnerabilityAffects version 3.2 and earlierRequest logging could be bypassedAffects version 3.6 and earlierIncorrect default patternAffects version 3.6 and earlier",
+  "title": "Audit Trail | Jenkins plugin",
+  "headers": [
+    "Audit Trail",
+    "Logger Configuration",
+    "File logger",
+    "Syslog logger",
+    "Console logger",
+    "Elastic Search logger",
+    "Other configuration",
+    "Log build triggers",
+    "Log credential users",
+    "About the client IP-address appearing in the logs",
+    "Changelog"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/audit-trail/releases/",
+    "https://plugins.jenkins.io/audit-trail/issues/",
+    "https://plugins.jenkins.io/audit-trail/dependencies/",
+    "https://plugins.jenkins.io/audit-trail/healthscore/",
+    "https://www.jenkins.io/doc/book/system-administration/reverse-proxy-configuration-troubleshooting/",
+    "https://www.jenkins.io/doc/developer/extensions/audit-trail",
+    "https://plugins.jenkins.io/ui/search/?labels=administrative-monitor",
+    "https://plugins.jenkins.io/ui/search/?labels=logging",
+    "https://plugins.jenkins.io/ui/search/?labels=user",
+    "https://plugins.jenkins.io/ui/search/?query=cleclerc",
+    "https://plugins.jenkins.io/ui/search/?query=tsek",
+    "https://plugins.jenkins.io/ui/search/?query=pierrebtz"
+  ]
+}

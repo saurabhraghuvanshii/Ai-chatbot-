@@ -1,0 +1,26 @@
+{
+  "content": "Build Timeout | Jenkins pluginBuild TimeoutHow to installDocumentationReleasesIssuesDependenciesHealth Score This plugin allows you to automatically terminate a build if it\u2019s taking too long. This plugin isn\u2019t applicable to pipelines. Use the timeout step in workflow-basic-steps instead. Instructions for the user Global configuration Go to Manage Jenkins and then Configure System. Under the item Global Build Time Out you can activate a global timeout which will be applied to any job. Choose your timeout strategy, the duration and add actions which should be executed at timeout. In addition, the option can be activated that individual jobs can overwrite the global timeout if they provide a corresponding build step. Note that sometimes if a project is not of the hudson.model.Project type, then the individual jobs would not be allowed to overwrite the global timeout. Build environment Alternatively, the timeout can be specified in the build environment of a job. To do this, click Configure in the job view and in the build environment section, select the item Terminate a build if it\u2019s stuck. Because Java only allows threads to be interrupted at a set of fixed locations, depending on how a build hangs, the abort operation might not take effect. For example, if Jenkins is waiting for child processes to complete, it can abort right away. if Jenkins is stuck in an infinite loop, it can never be aborted. if Jenkins is doing a network or file I/O within the Java VM (such as lengthy file copy or SVN update), it cannot be aborted. So if you think the build timeout isn\u2019t taking effect, our default assumption is that the build is hanging at the place that cannot be interrupted. If you suspect otherwise, please obtain the thread dump and report it. Build step Add a new step Run with timeout at the section Build, add the timeout strategy and duration, add some actions and the build step you want to execute within the timout step. For developers If you are interested in contributing, please pay attention to the below steps: To test mvn verify To build mvn hpi:run For newcomers, please see guide at https://www.jenkins.io/participate/ for more information about how to participate and contribute. Time-out actions with notes Time-out action Note Abort and restart the build Installing Naginator Plugin enables this action CHANGELOG.adoc Version: 1.36Released: 3 weeks agoRequires Jenkins 2.479.1ID: build-timeoutInstalled on 80.7% of\u00a0controllersView detailed version informationLinksGitHubOpen issues (Jira)Report an issue (Jira)Open issues (Github)Report an issue (Github)Extension PointsJavadocLabelsBuild WrappersMaintainersikedamOleg NenashevKris SternHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "Build Timeout | Jenkins plugin",
+  "headers": [
+    "Build Timeout",
+    "Instructions for the user",
+    "Global configuration",
+    "Build environment",
+    "Build step",
+    "For developers",
+    "To test",
+    "To build",
+    "Time-out actions with notes"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/build-timeout/releases/",
+    "https://plugins.jenkins.io/build-timeout/issues/",
+    "https://plugins.jenkins.io/build-timeout/dependencies/",
+    "https://plugins.jenkins.io/build-timeout/healthscore/",
+    "https://www.jenkins.io/doc/developer/extensions/build-timeout",
+    "https://plugins.jenkins.io/ui/search/?labels=buildwrapper",
+    "https://plugins.jenkins.io/ui/search/?query=ikedam",
+    "https://plugins.jenkins.io/ui/search/?query=oleg_nenashev",
+    "https://plugins.jenkins.io/ui/search/?query=krisstern"
+  ]
+}

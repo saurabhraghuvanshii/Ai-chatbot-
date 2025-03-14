@@ -1,0 +1,21 @@
+{
+  "content": "Wiz Scanner | Jenkins pluginWiz ScannerHow to installDocumentationReleasesIssuesDependenciesHealth Score Introduction This Jenkins plugin enables integrate Wiz CLI to detect sensitive data, secrets, misconfigurations, and vulnerabilities in container images, directories and IaC files. Prerequisites Access as an admin to your Jenkins account. Installation and Setup Locate the Wiz CLI link relevant to your OS here and store it in a safe place for future use. For example, the Wiz CLI download URL for Linux (AMD64) is https://downloads.wiz.io/wizcli/latest/wizcli-linux-amd64. In Wiz, generate a service account by following these steps. Log in to your Jenkins account. Navigate to Manage Jenkins and click Plugins. On the right menu, click Available plugins and search for \"Wiz Scanner\" using the top search bar. Choose the Wiz Scanner and click Install on the top right. Navigate to Manage Jenkins > System and scroll down to the Wiz section. Fill in the Client ID, Secret Key (aka Client Secret), and Wiz CLI link that were previously collected. (GovCloud/FedRAMP tenants only) Fill in the relevant environment variable. Find your environment variable here. Click Save. Depending on the type of job, follow these steps: Freestyle Jobs On the dashboard, locate a freestyle job and select it. On the left side menu, navigate to Configure > Build Steps. Click Add Build Step and select Wiz Scanner. Insert a Wiz CLI command (without the wizcli argument). See the Use Wiz CLI page to learn how to build commands. 5. Click Save. Pipeline Jobs On the dashboard, locate a pipeline job and select it On the left side menu, navigate to Configure > Pipeline. Ensure the Definition is set to Pipeline script. In the Script section, insert a Wiz CLI command (including the wizcli argument). See the Use Wiz CLI page to learn how to build commands. 5. Click Save. Viewing Results Run the job by clicking Build Now. When the build completes, scan results can be viewed under the Wiz Scanner tab. Contributing To contribute to this repository, please review the CONTRIBUTING file. Also, please refer to the Jenkins contribution guidelines LICENSE Licensed under MIT, see LICENSE Version: 76.v29eb_4d2a_11a_2Released: about a month agoRequires Jenkins 2.462.3ID: wiz-scannerNo usage data availableLinksGitHubOpen issues (Github)Report an issue (Github)Pipeline Step ReferenceJavadocLabelsThis plugin has no labelsMaintainersWizHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "Wiz Scanner | Jenkins plugin",
+  "headers": [
+    "Wiz Scanner",
+    "Introduction",
+    "Prerequisites",
+    "Installation and Setup",
+    "Viewing Results",
+    "Contributing",
+    "LICENSE"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/wiz-scanner/releases/",
+    "https://plugins.jenkins.io/wiz-scanner/issues/",
+    "https://plugins.jenkins.io/wiz-scanner/dependencies/",
+    "https://plugins.jenkins.io/wiz-scanner/healthscore/",
+    "https://www.jenkins.io/doc/pipeline/steps/wiz-scanner",
+    "https://plugins.jenkins.io/ui/search/?query=wizdeploy"
+  ]
+}

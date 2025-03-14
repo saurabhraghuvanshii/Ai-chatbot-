@@ -1,0 +1,17 @@
+{
+  "content": "jsoup API | Jenkins pluginjsoup APIHow to installDocumentationReleasesIssuesDependenciesHealth Score jsoup API Plugin jsoup API Plugin This plugin provides jsoup for other plugins (https://jsoup.org/) Build To build the plugin locally: mvn -Dset.changelist clean install Version: 1.19.1-36.v63b_c859911d0Released: about 9 hours agoRequires Jenkins 2.462.3ID: jsoupInstalled on 0.031% of\u00a0controllersView detailed version informationLinksGitHubOpen issues (Github)Report an issue (Github)JavadocLabelsLibrary plugins (for use by other plugins)MaintainersValentin DelayeHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "jsoup API | Jenkins plugin",
+  "headers": [
+    "jsoup API",
+    "jsoup API Plugin",
+    "Build"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/jsoup/releases/",
+    "https://plugins.jenkins.io/jsoup/issues/",
+    "https://plugins.jenkins.io/jsoup/dependencies/",
+    "https://plugins.jenkins.io/jsoup/healthscore/",
+    "https://plugins.jenkins.io/ui/search/?labels=api-plugin",
+    "https://plugins.jenkins.io/ui/search/?query=jonesbusy"
+  ]
+}

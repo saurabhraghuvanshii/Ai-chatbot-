@@ -1,0 +1,20 @@
+{
+  "content": "Zoho QEngine | Jenkins pluginZoho QEngineHow to installDocumentationReleasesIssuesDependenciesHealth Score About Zoho QEngine Zoho QEngine is a cloud-based test automation platform designed to streamline software testing for web, API, and mobile applications. With features such as scriptless testing, self-healing capabilities, and detailed reporting, QEngine simplifies quality assurance, enhances efficiency, and ensures robust application performance. To learn more about Zoho QEngine, please refer to our User Guide. Jenkins Integration Integrating Zoho QEngine with Jenkins enables automated test execution, enhances CI/CD workflows, and provides real-time feedback. This integration improves reporting, fosters collaboration, and accelerates issue detection while supporting scalable and efficient test management. To get started, install the Zoho QEngine Test Plan Execution Plugin in Jenkins to trigger test executions. For more details about this integration, please refer to the Integration page. Pre-requisites for Configuration API Key: Generate an API Key in Zoho QEngine. Test Plan Execution URL: Retrieve the Execution URL from the Test Plans section in Zoho QEngine. Steps to Configure Create a New Pipeline Set up a new pipeline in Jenkins. Add a Build Step with the Zoho QEngine Plugin Include a build step that utilizes the QEngine plugin. Provide Build Step Details Test Plan Execution URL: Enter the execution URL obtained from Zoho QEngine. API Key: Input the API key in Zoho QEngine. Maximum Wait Time: Define the maximum expected time (in minutes) for the test plan to complete. If this time is exceeded, the build will terminate and be marked as failed. Build Name: Assign a name to the build. Execute the Build Trigger the build to initiate test execution. Support For any issues or further assistance, please contact us at support@zohoqengine.com To learn more about Zoho QEngine, visit https://www.zoho.com/qengine/. Version: 1.0.29.vfa_cc23396502Released: 2 months agoRequires Jenkins 2.452.4ID: zohoqengineNo usage data availableLinksGitHubOpen issues (Jira)Report an issue (Jira)Pipeline Step ReferenceJavadocLabelsThis plugin has no labelsMaintainersQEngineHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "Zoho QEngine | Jenkins plugin",
+  "headers": [
+    "Zoho QEngine",
+    "About Zoho QEngine",
+    "Jenkins Integration",
+    "Pre-requisites for Configuration",
+    "Steps to Configure",
+    "Support"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/zohoqengine/releases/",
+    "https://plugins.jenkins.io/zohoqengine/issues/",
+    "https://plugins.jenkins.io/zohoqengine/dependencies/",
+    "https://plugins.jenkins.io/zohoqengine/healthscore/",
+    "https://www.jenkins.io/doc/pipeline/steps/zohoqengine",
+    "https://plugins.jenkins.io/ui/search/?query=zohoqengine"
+  ]
+}

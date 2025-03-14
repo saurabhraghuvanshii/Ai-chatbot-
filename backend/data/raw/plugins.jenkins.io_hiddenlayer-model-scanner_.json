@@ -1,0 +1,19 @@
+{
+  "content": "HiddenLayer Model Scanner | Jenkins pluginHiddenLayer Model ScannerHow to installDocumentationReleasesIssuesDependenciesHealth Score This plugin submits models to the HiddenLayer Model Scanner service for scanning. The plugin can be configured to fail the Jenkins pipeline in the case that the model is flagged as malicious. Features Submit models to the HiddenLayer Model Scanner service for scanning Configuration option to fail the pipeline if the file type is unknown Configuration option to fail the pipeline if the file is flagged as malicious Configuration The following fields must be configured in the Jenkins pipeline: ML Model Name - the name of the model to be scanned HiddenLayer Client ID - the client ID for the HiddenLayer Model Scanner service HiddenLayer Client Secret - the client secret for the HiddenLayer Model Scanner service Folder to Scan - the folder containing the model to be scanned Fail Build on Unsupported Model - whether to fail the pipeline if the file type is unknown Fail Build if Scan Severity Equal to or Higher - the severity level at which to fail the pipeline. Options are Low, Medium, High, and Critical. Version: 1.0.33.v65c50476ec88Released: 2 months agoRequires Jenkins 2.452.4ID: hiddenlayer-model-scannerNo usage data availableLinksGitHubOpen issues (Github)Report an issue (Github)Pipeline Step ReferenceJavadocLabelsThis plugin has no labelsMaintainersBenTravisAndrewHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "HiddenLayer Model Scanner | Jenkins plugin",
+  "headers": [
+    "HiddenLayer Model Scanner",
+    "Features",
+    "Configuration"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/hiddenlayer-model-scanner/releases/",
+    "https://plugins.jenkins.io/hiddenlayer-model-scanner/issues/",
+    "https://plugins.jenkins.io/hiddenlayer-model-scanner/dependencies/",
+    "https://plugins.jenkins.io/hiddenlayer-model-scanner/healthscore/",
+    "https://www.jenkins.io/doc/pipeline/steps/hiddenlayer-model-scanner",
+    "https://plugins.jenkins.io/ui/search/?query=blucas_hl",
+    "https://plugins.jenkins.io/ui/search/?query=travis_hiddenlayer",
+    "https://plugins.jenkins.io/ui/search/?query=adrummond_hl"
+  ]
+}

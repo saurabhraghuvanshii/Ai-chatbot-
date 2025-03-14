@@ -1,0 +1,36 @@
+{
+  "content": "Tutorials overview > User Documentation Home User Handbook User Handbook Overview Installing Jenkins Platform Information Using Jenkins Pipeline Blue Ocean Managing Jenkins Securing Jenkins System Administration Scaling Jenkins Troubleshooting Jenkins Glossary Tutorials Guided Tour Jenkins Pipeline Using Build Tools Resources Pipeline Syntax reference Pipeline Steps reference LTS Upgrade guides Tutorials overview This part of the Jenkins User Documentation contains a series of introductory tutorials to help you begin building your applications in an automated fashion with Jenkins. If you\u2019re a developer who wants to improve your understanding of Continuous Integration (CI) / Continuous Delivery (CD) concepts, or you might already be familiar with these concepts but don\u2019t yet know how to implement them in Jenkins, then these tutorials are a great place to start. Getting started with Jenkins Guided Tour to Jenkins Pipeline The following tutorials show how to use key features of Jenkins to facilitate implementing CI/CD processes to build your applications: Getting started with Jenkins Pipeline Publishing HTML Reports in Pipeline (Declarative Pipeline, Scripted Pipeline) Sending Notifications in Pipeline (Declarative Pipeline, Scripted Pipeline) End-to-End Multibranch Pipeline Project Creation Creating a shared library Faster Pipelines with the Parallel Test Executor Plugin Converting Conditional Build Steps to Jenkins Pipeline Pipeline Development Tools Using build tools The following tutorials show how to use Jenkins to cover the basics of CI/CD concepts based on specific technology stacks. Choose the tutorial that\u2019s relevant to your technology stack or one that you\u2019re most familiar with: Build a Python app with PyInstaller Build a C++ app with Jenkins Build a Java app with Maven Build a Node.js and React app with npm Build a LabVIEW app Build a Jenkins pipeline by using Jenkinsfile Runner GitHub Actions More tutorials Cloud tutorials are available including: Jenkins on Google Cloud Jenkins on AWS You may find more tutorials in Tutorial blogposts. Declarative Pipeline for Maven Projects Continuous Security for Rails apps with Pipeline and Brakeman Browser-testing with Sauce OnDemand and Pipeline Blue Ocean Blue Ocean is no longer being actively maintained. These tutorials will continue to work until Blue Ocean is completely deprecated, at which point the tutorials will be removed from the documentation. Getting Started with Blue Ocean Getting Started with Blue Ocean\u2019s Visual Pipeline Editor (guide, video guide) Getting Started with Blue Ocean\u2019s Activity View Getting Started with the Blue Ocean Dashboard Was this page helpful? Please submit your feedback about this page through this quick form. Alternatively, if you don't wish to complete the quick form, you can simply indicate if you found this page helpful? Yes No Submit See existing feedback here.",
+  "title": "\nTutorials overview\n",
+  "headers": [
+    "\nTutorials overview\n",
+    "Getting started with Jenkins",
+    "Pipeline",
+    "Using build tools",
+    "More tutorials",
+    "Blue Ocean"
+  ],
+  "links": [
+    "https://www.jenkins.io/doc/tutorials#tools",
+    "https://www.jenkins.io/doc/book/pipeline/syntax/",
+    "https://www.jenkins.io/doc/pipeline/steps/",
+    "https://www.jenkins.io/doc/upgrade-guide/",
+    "https://www.jenkins.io/doc/pipeline/tour/getting-started",
+    "https://www.jenkins.io/blog/2017/02/10/declarative-html-publisher/",
+    "https://www.jenkins.io/blog/2016/07/01/html-publisher-plugin/",
+    "https://www.jenkins.io/blog/2017/02/15/declarative-notifications/",
+    "https://www.jenkins.io/blog/2016/07/18/pipeline-notifications/",
+    "https://www.jenkins.io/blog/2017/02/15/declarative-notifications/#moving-notifications-to-shared-library",
+    "https://www.jenkins.io/blog/2016/06/16/parallel-test-executor-plugin/",
+    "https://www.jenkins.io/blog/2017/01/19/converting-conditional-to-pipeline/",
+    "https://www.jenkins.io/blog/2017/05/18/pipeline-dev-tools/",
+    "https://www.jenkins.io/blog/tags/tutorial",
+    "https://www.jenkins.io/blog/2017/02/07/declarative-maven-project/",
+    "https://www.jenkins.io/blog/2016/08/10/rails-cd-with-pipeline/",
+    "https://www.jenkins.io/blog/2016/08/29/sauce-pipeline/",
+    "https://www.jenkins.io/blog/2017/04/05/welcome-to-blue-ocean/",
+    "https://www.jenkins.io/blog/2017/04/06/welcome-to-blue-ocean-editor/",
+    "https://www.jenkins.io/blog/2017/04/11/welcome-to-blue-ocean-pipeline-activity/",
+    "https://www.jenkins.io/blog/2017/04/12/welcome-to-blue-ocean-dashboard/",
+    "https://www.jenkins.io/doc/feedback-form/"
+  ]
+}

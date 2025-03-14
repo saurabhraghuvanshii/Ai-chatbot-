@@ -1,0 +1,26 @@
+{
+  "content": "Pipeline: Supporting APIs | Jenkins pluginPipeline: Supporting APIsHow to installDocumentationReleasesIssuesDependenciesHealth Score Introduction This plugin provides APIs that are used by core Pipeline plugins for features such as persistence and step visualization. Version History See the changelog. Version: 963.va_600813d04a_a_Released: 2 days agoRequires Jenkins 2.479.1ID: workflow-supportInstalled on 97.1% of\u00a0controllersView detailed version informationLinksGitHubOpen issues (Jira)Report an issue (Jira)JavadocLabelsLibrary plugins (for use by other plugins)MiscellaneousMaintainersJesse GlickKohsuke KawaguchiAndrew BayerrsandellDevin NusbaumCarroll ChiouLiam NewmanKarl ShultzJames NordHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.Previous Security WarningsArbitrary code execution due to incomplete sandbox protectionAffects version 2.17 and earlierStored XSS vulnerabilityAffects version 838.va_3a_087b_4055b and earlier",
+  "title": "Pipeline: Supporting APIs | Jenkins plugin",
+  "headers": [
+    "Pipeline: Supporting APIs",
+    "Introduction",
+    "Version History"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/workflow-support/releases/",
+    "https://plugins.jenkins.io/workflow-support/issues/",
+    "https://plugins.jenkins.io/workflow-support/dependencies/",
+    "https://plugins.jenkins.io/workflow-support/healthscore/",
+    "https://plugins.jenkins.io/ui/search/?labels=api-plugin",
+    "https://plugins.jenkins.io/ui/search/?labels=misc",
+    "https://plugins.jenkins.io/ui/search/?query=jglick",
+    "https://plugins.jenkins.io/ui/search/?query=kohsuke",
+    "https://plugins.jenkins.io/ui/search/?query=abayer",
+    "https://plugins.jenkins.io/ui/search/?query=rsandell",
+    "https://plugins.jenkins.io/ui/search/?query=dnusbaum",
+    "https://plugins.jenkins.io/ui/search/?query=carroll",
+    "https://plugins.jenkins.io/ui/search/?query=bitwiseman",
+    "https://plugins.jenkins.io/ui/search/?query=kshultz",
+    "https://plugins.jenkins.io/ui/search/?query=teilo"
+  ]
+}
