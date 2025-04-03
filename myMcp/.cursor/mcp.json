@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+      "weatherData": {
+        "command": "node",
+        "args": ["/home/saurabh/learning-Project/jenkinsAi-Chatbot/myMcp/index.js"]
+      }
+    }
+  }
