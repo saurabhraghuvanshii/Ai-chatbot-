@@ -1,0 +1,27 @@
+{
+  "content": "User Handbook Overview > User Documentation Home User Handbook User Handbook Overview Installing Jenkins Platform Information Using Jenkins Pipeline Blue Ocean Managing Jenkins Securing Jenkins System Administration Scaling Jenkins Troubleshooting Jenkins Glossary Tutorials Guided Tour Jenkins Pipeline Using Build Tools Resources Pipeline Syntax reference Pipeline Steps reference LTS Upgrade guides Index Installing Jenkins \u00e2\u0087\u0092 User Handbook Overview This page provides an overview of the documentation in the Jenkins User Handbook. If you want to get up and running with Jenkins, see Installing Jenkins for procedures on how to install Jenkins on your supported platform of choice. If you are a typical Jenkins user (of any skill level) who wants to know more about Jenkins usage, see Using Jenkins. Also refer to the separate Pipeline and Blue Ocean chapters for more information about these core Jenkins features. If you are a Jenkins administrator and want to know more about managing Jenkins nodes and instances, see Managing Jenkins. If you are a system administrator and want to learn how to back-up, restore, maintain as Jenkins servers and nodes, see Jenkins System Administration. Index Installing Jenkins \u00e2\u0087\u0092 Was this page helpful? Please submit your feedback about this page through this quick form. Alternatively, if you don't wish to complete the quick form, you can simply indicate if you found this page helpful? Yes No Submit See existing feedback here.",
+  "title": "\nUser Handbook Overview\n",
+  "headers": [
+    "\nUser Handbook Overview\n"
+  ],
+  "links": [
+    "https://www.jenkins.io/doc/book/installing/",
+    "https://www.jenkins.io/doc/book/platform-information/",
+    "https://www.jenkins.io/doc/book/using/",
+    "https://www.jenkins.io/doc/book/pipeline/",
+    "https://www.jenkins.io/doc/book/blueocean/",
+    "https://www.jenkins.io/doc/book/managing/",
+    "https://www.jenkins.io/doc/book/security/",
+    "https://www.jenkins.io/doc/book/system-administration/",
+    "https://www.jenkins.io/doc/book/scaling/",
+    "https://www.jenkins.io/doc/book/troubleshooting/",
+    "https://www.jenkins.io/doc/book/glossary/",
+    "https://www.jenkins.io/doc/pipeline/tour/getting-started/",
+    "https://www.jenkins.io/doc/tutorials#pipeline",
+    "https://www.jenkins.io/doc/tutorials#tools",
+    "https://www.jenkins.io/doc/book/pipeline/syntax/",
+    "https://www.jenkins.io/doc/pipeline/steps/",
+    "https://www.jenkins.io/doc/upgrade-guide/",
+    "https://www.jenkins.io/doc/feedback-form/"
+  ]
+}

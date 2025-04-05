@@ -1,0 +1,18 @@
+{
+  "content": "GParams | Jenkins pluginGParamsHow to installDocumentationReleasesIssuesDependenciesHealth Score Introduction This plugin allow any Pipeline Jobs store and read values common for all jobs. It adds 2 steps in pipeline: gpRead(name, value) gpWrite(name) Getting started Use of the steps is very simple. For write value in global store add follow step: gpWrite name: 'myvalue', value: 'Some string' For read this value add follow: def myval = gpRead name: 'myvalue' LICENSE Licensed under MIT, see LICENSE Version: 64.v0422ef148e18Released: 3 days agoRequires Jenkins 2.479.3ID: global-pipeline-parametersNo usage data availableLinksGitHubOpen issues (Jira)Report an issue (Jira)Pipeline Step ReferenceJavadocLabelsThis plugin has no labelsMaintainersOleg GavrilchenkoHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "GParams | Jenkins plugin",
+  "headers": [
+    "GParams",
+    "Introduction",
+    "Getting started",
+    "LICENSE"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/global-pipeline-parameters/releases/",
+    "https://plugins.jenkins.io/global-pipeline-parameters/issues/",
+    "https://plugins.jenkins.io/global-pipeline-parameters/dependencies/",
+    "https://plugins.jenkins.io/global-pipeline-parameters/healthscore/",
+    "https://www.jenkins.io/doc/pipeline/steps/global-pipeline-parameters",
+    "https://plugins.jenkins.io/ui/search/?query=reffum"
+  ]
+}

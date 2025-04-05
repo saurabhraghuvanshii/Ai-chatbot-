@@ -1,0 +1,19 @@
+{
+  "content": "Jobcacher S3 Storage Extension | Jenkins pluginJobcacher S3 Storage ExtensionHow to installDocumentationReleasesIssuesDependenciesHealth Score This plugin is an extension of the jobcacher-plugin that allows you to store the caches in S3 compliant storage This was extracted from jobcacher since this PR Warning Users upgrading from version 640.v424a_7cc1087a_ of jobcacher and above AND using S3 storage MUST install this plugin. Configuration is kept in the same place, but the plugin will not work with S3 storage without this extension. Introduction Getting started You only need to configure the extension to use S3 under System Configuration. Configuration as Code S3 unclassified: globalItemStorage: storage: s3: bucketName: \"caches\" prefix: \"the-prefix/\" credentialsId: \"s3\" region: \"eu-central-2\" S3 with endpoint unclassified: globalItemStorage: storage: nonAWSS3: bucketName: \"caches\" prefix: \"the-prefix/\" credentialsId: \"s3\" endpoint: \"http://localhost:9000\" parallelDownloads: false pathStyleAccess: true region: \"eu-central-2\" CONTRIBUTING See CONTRIBUTING LICENSE Licensed under MIT, see LICENSE Version: 6.v6418f16b_9b_b_fReleased: 2 days agoRequires Jenkins 2.479.3ID: s3-jobcacher-storageNo usage data availableLinksGitHubOpen issues (Github)Report an issue (Github)JavadocLabelsThis plugin has no labelsMaintainersValentin DelayeHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "Jobcacher S3 Storage Extension | Jenkins plugin",
+  "headers": [
+    "Jobcacher S3 Storage Extension",
+    "Introduction",
+    "Getting started",
+    "Configuration as Code",
+    "CONTRIBUTING",
+    "LICENSE"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/s3-jobcacher-storage/releases/",
+    "https://plugins.jenkins.io/s3-jobcacher-storage/issues/",
+    "https://plugins.jenkins.io/s3-jobcacher-storage/dependencies/",
+    "https://plugins.jenkins.io/s3-jobcacher-storage/healthscore/",
+    "https://plugins.jenkins.io/ui/search/?query=jonesbusy"
+  ]
+}

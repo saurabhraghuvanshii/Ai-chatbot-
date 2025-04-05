@@ -1,0 +1,16 @@
+{
+  "content": "Octopus Deploy | Jenkins pluginOctopus DeployHow to installDocumentationReleasesIssuesDependenciesHealth Score Documentation for this plugin is here: https://github.com/OctopusDeploy/octopus-jenkins-plugin Version: 4.0.2Released: a day agoRequires Jenkins 2.462.3ID: octopusdeployInstalled on 0.24% of\u00a0controllersView detailed version informationLinksGitHubOpen issues (Jira)Report an issue (Jira)Pipeline Step ReferenceJavadocLabelsDeploymentMaintainersOctopus DeployHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.Previous Security WarningsSSRF vulnerabilityAffects version 1.8.1 and earlierCredentials stored in plain textAffects version 1.9.0 and earlier",
+  "title": "Octopus Deploy | Jenkins plugin",
+  "headers": [
+    "Octopus Deploy"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/octopusdeploy/releases/",
+    "https://plugins.jenkins.io/octopusdeploy/issues/",
+    "https://plugins.jenkins.io/octopusdeploy/dependencies/",
+    "https://plugins.jenkins.io/octopusdeploy/healthscore/",
+    "https://www.jenkins.io/doc/pipeline/steps/octopusdeploy",
+    "https://plugins.jenkins.io/ui/search/?labels=deployment",
+    "https://plugins.jenkins.io/ui/search/?query=octopusdeploy"
+  ]
+}

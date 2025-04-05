@@ -1,0 +1,22 @@
+{
+  "content": "Scaling Jenkins > User Documentation Home User Handbook User Handbook Overview Installing Jenkins Platform Information Using Jenkins Pipeline Blue Ocean Managing Jenkins Securing Jenkins System Administration Scaling Jenkins Architecting for Scale Hardware Recommendations Architecting for Manageability Scaling Jenkins on Kubernetes Troubleshooting Jenkins Glossary Tutorials Guided Tour Jenkins Pipeline Using Build Tools Resources Pipeline Syntax reference Pipeline Steps reference LTS Upgrade guides \u00e2\u0087\u0090 System Administration Index Architecting for Scale \u00e2\u0087\u0092 Scaling Jenkins Chapter Sub-Sections Architecting for Scale Hardware Recommendations Architecting for Manageability Scaling Jenkins on Kubernetes This chapter covers topics related to using and managing large scale Jenkins configurations: large numbers of users, nodes, agents, folders, projects, concurrent jobs, job results and logs, and even large numbers of Jenkins controllers. The audience for this chapter is expert Jenkins users, administrators, and those planning large-scale installations. If you are a Jenkins administrator and want to know more about managing Jenkins nodes and controllers, see Managing Jenkins. For an overview of content in the Jenkins User Handbook, see User Handbook Overview. \u00e2\u0087\u0090 System Administration Index Architecting for Scale \u00e2\u0087\u0092 Was this page helpful? Please submit your feedback about this page through this quick form. Alternatively, if you don't wish to complete the quick form, you can simply indicate if you found this page helpful? Yes No Submit See existing feedback here.",
+  "title": "\nScaling Jenkins\n",
+  "headers": [
+    "\nScaling Jenkins\n"
+  ],
+  "links": [
+    "https://www.jenkins.io/doc/book/scaling/architecting-for-scale/",
+    "https://www.jenkins.io/doc/book/scaling/hardware-recommendations/",
+    "https://www.jenkins.io/doc/book/scaling/architecting-for-manageability/",
+    "https://www.jenkins.io/doc/book/scaling/scaling-jenkins-on-kubernetes/",
+    "https://www.jenkins.io/doc/book/troubleshooting/",
+    "https://www.jenkins.io/doc/book/glossary/",
+    "https://www.jenkins.io/doc/pipeline/tour/getting-started/",
+    "https://www.jenkins.io/doc/tutorials#pipeline",
+    "https://www.jenkins.io/doc/tutorials#tools",
+    "https://www.jenkins.io/doc/book/pipeline/syntax/",
+    "https://www.jenkins.io/doc/pipeline/steps/",
+    "https://www.jenkins.io/doc/upgrade-guide/",
+    "https://www.jenkins.io/doc/feedback-form/"
+  ]
+}

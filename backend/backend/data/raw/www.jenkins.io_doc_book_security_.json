@@ -1,0 +1,36 @@
+{
+  "content": "Securing Jenkins > User Documentation Home User Handbook User Handbook Overview Installing Jenkins Platform Information Using Jenkins Pipeline Blue Ocean Managing Jenkins Securing Jenkins Access Control Securing Jenkins Managing Security Controller Isolation Securing Builds CSRF Protection Rendering User Content Access Control for Builds Handling Environment Variables Markup Formatters Securing SCM credentials for Organization Folders and Multibranch Pipelines Exposed Services and Ports Credentials System Administration Scaling Jenkins Troubleshooting Jenkins Glossary Tutorials Guided Tour Jenkins Pipeline Using Build Tools Resources Pipeline Syntax reference Pipeline Steps reference LTS Upgrade guides \u00e2\u0087\u0090 Managing Jenkins Index Access Control \u00e2\u0087\u0092 Securing Jenkins Chapter Sub-Sections Access Control Securing Jenkins Managing Security Controller Isolation Securing Builds CSRF Protection Rendering User Content Access Control for Builds Handling Environment Variables Markup Formatters Securing SCM credentials for Organization Folders and Multibranch Pipelines Exposed Services and Ports Credentials Jenkins is used everywhere from workstations on corporate intranets, to high-powered servers connected to the public internet. To safely support this wide spread of security and threat profiles, Jenkins offers many configuration options for enabling, customizing, or disabling various security features. Many of the security options are enabled by default when passing the interactive setup wizard to ensure that Jenkins is secure. Others involve environment-specific setup and trade-offs and depend on specific use cases supported in individual Jenkins instances. This chapter will introduce the various security options available to Jenkins administrators and users, explaining the protections offered, and trade-offs to disabling some of them. Basic Setup Controller Isolation Builds should not be executed on the built-in node, but that is just the beginning: This section discusses what other steps can be taken to protect the controller from being impacted by running builds. This needs to be configured according to the needs of your environment. Access Control By default, Jenkins does not allow anonymous access, and a single admin user exists. This chapter discusses which level of access is provided by permissions and how to safely grant access to more users. This is set up securely by the setup wizard. If the setup wizard is disabled on first launch, this may not be configured securely by default. Build Behavior Access Control for Builds Learn how to restrict what individual builds can do in Jenkins once they\u2019re running. This needs to be configured according to the needs of your environment. Securing Builds Learn about how builds can interfere with each other and your infrastructure, and what to do about it. This needs to be configured according to the needs of your environment. Handling Environment Variables Improperly written build scripts may be tricked into behaving differently than intended due to special environment variable names or values being injected as build parameters. This section discusses how to protect your builds. This needs to be configured according to the needs of your environment. Securing Organization Folder and Multibranch Pipeline Credentials Learn about how credentials for Organization Folder and Multibranch Pipeline Credentials may be accessible to unprivileged users in ways you did not anticipate, and what to do about it. This must be configured according to the needs of your environment. User Interface CSRF Protection Jenkins protects from cross-site request forgery (CSRF) by default. This chapter explains how to work around any problems this may cause. This is set up securely by default. Markup Formatter The default markup formatter renders text as entered (i.e. escaping HTML metacharacters). This chapter explains how to switch to a different markup formatter and explains what admins need to be aware of. This is set up securely by default. Rendering User Content By default, Jenkins strictly limits the features useable in user content (files from workspaces, archived artifacts, etc.) it serves. This chapter discusses how to customize this and make HTML reports and similar content both functional and safe to view. This is set up securely by default. \u00e2\u0087\u0090 Managing Jenkins Index Access Control \u00e2\u0087\u0092 Was this page helpful? Please submit your feedback about this page through this quick form. Alternatively, if you don't wish to complete the quick form, you can simply indicate if you found this page helpful? Yes No Submit See existing feedback here.",
+  "title": "\nSecuring Jenkins\n",
+  "headers": [
+    "\nSecuring Jenkins\n",
+    "Basic Setup",
+    "Build Behavior",
+    "User Interface"
+  ],
+  "links": [
+    "https://www.jenkins.io/doc/book/security/access-control/",
+    "https://www.jenkins.io/doc/book/security/securing-jenkins/",
+    "https://www.jenkins.io/doc/book/security/managing-security/",
+    "https://www.jenkins.io/doc/book/security/controller-isolation/",
+    "https://www.jenkins.io/doc/book/security/securing-builds/",
+    "https://www.jenkins.io/doc/book/security/csrf-protection/",
+    "https://www.jenkins.io/doc/book/security/user-content/",
+    "https://www.jenkins.io/doc/book/security/build-authorization/",
+    "https://www.jenkins.io/doc/book/security/environment-variables/",
+    "https://www.jenkins.io/doc/book/security/markup-formatter/",
+    "https://www.jenkins.io/doc/book/security/securing-org-folders-and-multibranch-pipelines/",
+    "https://www.jenkins.io/doc/book/security/services/",
+    "https://www.jenkins.io/doc/book/security/credentials/",
+    "https://www.jenkins.io/doc/book/system-administration/",
+    "https://www.jenkins.io/doc/book/scaling/",
+    "https://www.jenkins.io/doc/book/troubleshooting/",
+    "https://www.jenkins.io/doc/book/glossary/",
+    "https://www.jenkins.io/doc/pipeline/tour/getting-started/",
+    "https://www.jenkins.io/doc/tutorials#pipeline",
+    "https://www.jenkins.io/doc/tutorials#tools",
+    "https://www.jenkins.io/doc/book/pipeline/syntax/",
+    "https://www.jenkins.io/doc/pipeline/steps/",
+    "https://www.jenkins.io/doc/upgrade-guide/",
+    "https://www.jenkins.io/doc/feedback-form/"
+  ]
+}

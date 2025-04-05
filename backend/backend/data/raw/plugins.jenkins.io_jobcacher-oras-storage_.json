@@ -1,0 +1,18 @@
+{
+  "content": "Jobcacher ORAS Storage Extension | Jenkins pluginJobcacher ORAS Storage ExtensionHow to installDocumentationReleasesIssuesDependenciesHealth Score This plugin is an extension of the jobcacher-plugin that allows you to store the caches in OCI compliant registries like using ORAS Warning The ORAS Java SDK is currently in alpha state and might impact the stability of this plugin. It's configuration and APIs might change in future releases Currently, caches are stored \"as-is\", under a configurable namespace registry. This would require some update on jobcacher to support bundling OCI artifact with multiple layer or use referrer. On ZOT On Artifactory OCI On Harbor Introduction Getting started You only need to configure the extension to use ORAS under System Configuration. See jobcacher-plugin for usage in jobs and pipelines. For local testing you can use ZOT to start a registry docker run -d -p 5000:5000 ghcr.io/project-zot/zot-linux-amd64:v2.1.2 Warning Not using credentials is not recommended and will setup insecure registry mode and skip TLS verification This should only be used when testing against a local registry CONTRIBUTING See CONTRIBUTING LICENSE Licensed under MIT, see LICENSE Version: 8.vc4686b_899f53Released: 3 weeks agoRequires Jenkins 2.479.3ID: jobcacher-oras-storageNo usage data availableLinksGitHubOpen issues (Github)Report an issue (Github)JavadocLabelsThis plugin has no labelsMaintainersValentin DelayeHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "Jobcacher ORAS Storage Extension | Jenkins plugin",
+  "headers": [
+    "Jobcacher ORAS Storage Extension",
+    "Introduction",
+    "Getting started",
+    "CONTRIBUTING",
+    "LICENSE"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/jobcacher-oras-storage/releases/",
+    "https://plugins.jenkins.io/jobcacher-oras-storage/issues/",
+    "https://plugins.jenkins.io/jobcacher-oras-storage/dependencies/",
+    "https://plugins.jenkins.io/jobcacher-oras-storage/healthscore/",
+    "https://plugins.jenkins.io/ui/search/?query=jonesbusy"
+  ]
+}

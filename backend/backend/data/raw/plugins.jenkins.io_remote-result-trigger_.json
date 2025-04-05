@@ -1,0 +1,23 @@
+{
+  "content": "Remote Result Trigger | Jenkins pluginRemote Result TriggerHow to installDocumentationReleasesIssuesDependenciesHealth Score A plugin for Jenkins CI that gives you the ability to monitor successful build on a remote Jenkins server. Scenes Build project and pull docker images on a remote server\uff08having public ip\uff09, Customer didn't having a public ip and we dont want to share source code. Instructions Enable the trigger within the \"Remote Build Result Trigger\" section of the build's configuration page. When remote server build successful, plugin will trigger a local build and inject remote envs to job. ENV_NAME description REMOTE_BUILD_NUMBER The remote build number, such as \"153\". REMOTE_BUILD_TIMESTAMP The remote build timestamp, such as \"1676017363424\". REMOTE_BUILD_URL Full URL of this build, like https://server:port/jenkins/job/foo/15/ (Jenkins URL must be set). REMOTE_BUILD_RESULT The remote build result, such as \"SUCCESS\", \"UNSTABLE\", \"FAILURE\", \"NOT_BUILT\", \"ABORTED\". REMOTE_PARAMETER_${PARAMETER_NAME} If remote job use buildWithParameters, use remote parameters replace ${PARAMETER_NAME}. REMOTE_RESULT_${PUB_RESULT_KEY} If remote use pubResult, use result json key replace ${PUB_RESULT_KEY} REMOTE_JOBS ex: [\"Unique Identifier(Optional)\"] If monitor more than one remote job The Unique Identifier(Optional) used to replace injected envs ENV_NAME description REMOTE_JOBS ex: [\"Unique Identifier(Optional) \"] REMOTE_${uid}_BUILD_NUMBER The remote build number, such as \"153\". REMOTE_${uid}_BUILD_TIMESTAMP The remote build timestamp, such as \"1676017363424\". REMOTE_${uid}_BUILD_URL Full URL of this build, like https://server:port/jenkins/job/foo/15/ (Jenkins URL must be set). REMOTE_${uid}_BUILD_RESULT The remote build result, such as \"SUCCESS\", \"UNSTABLE\", \"FAILURE\", \"NOT_BUILT\", \"ABORTED\". REMOTE_${uid}_PARAMETER_${PARAMETER_NAME} If remote job use buildWithParameters, use remote parameters replace ${PARAMETER_NAME}. REMOTE_${uid}_RESULT_${PUB_RESULT_KEY} If remote use pubResult, use result json key replace ${PUB_RESULT_KEY} Configuration Add Remote Server Manage Jenkins > Configure System > Remote Result Trigger Configuration > Remote Jenkins Server Set Build Trigger Job > Build Triggers > Checked Remote Build Result Trigger Publish Publish with pipeline pubResult(result: '{\"key\": \"value\"}') Publish with FreestyleProject Version: 2.123.v31c9d838c3f2Released: 2 days agoRequires Jenkins 2.401.3ID: remote-result-triggerInstalled on 0.010% of\u00a0controllersView detailed version informationLinksGitHubOpen issues (Github)Report an issue (Github)Pipeline Step ReferenceJavadocLabelsThis plugin has no labelsMaintainersHe WeiHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.",
+  "title": "Remote Result Trigger | Jenkins plugin",
+  "headers": [
+    "Remote Result Trigger",
+    "Scenes",
+    "Instructions",
+    "Configuration",
+    "Add Remote Server",
+    "Set Build Trigger",
+    "Publish",
+    "Publish with pipeline",
+    "Publish with FreestyleProject"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/remote-result-trigger/releases/",
+    "https://plugins.jenkins.io/remote-result-trigger/issues/",
+    "https://plugins.jenkins.io/remote-result-trigger/dependencies/",
+    "https://plugins.jenkins.io/remote-result-trigger/healthscore/",
+    "https://www.jenkins.io/doc/pipeline/steps/remote-result-trigger",
+    "https://plugins.jenkins.io/ui/search/?query=itfsw"
+  ]
+}

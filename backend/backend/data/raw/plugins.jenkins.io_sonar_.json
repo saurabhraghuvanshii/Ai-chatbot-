@@ -1,0 +1,24 @@
+{
+  "content": "SonarQube Scanner | Jenkins pluginSonarQube ScannerHow to installDocumentationReleasesIssuesDependenciesHealth Score This plugin allows easy integration in Jenkins projects of SonarQube (Server, Cloud) and SonarQube Community Build. SonarQube Server, Cloud and SonarQube Community Build are widely used static analysis solutions for continuous code quality and security inspection. They help developers detect coding issues in 30+ languages, frameworks, and IaC platforms, including Java, JavaScript, TypeScript, C#, Python, C, C++, and many more. Issue tracking Documentation and changelog: SonarQube Server SonarQube Cloud SonarQube Community Build If you want to make changes, please clone the Git repository. With this plugin, you can configure SonarQube instances and run a Sonar Scanner analysis in several ways: By injecting the SonarQube configuration as environment variables and using them in any job step (such as Maven, Ant, Gradle, ...) Using the SonarQube Scanner build step Using SonarScanner for MSBuild analysis steps 'SonarQube Scanner' and 'SonarScanner for MSBuild' are managed as installable tools. List of available versions is retrieved automatically by Jenkins from a json file hosted on the update site: https://updates.jenkins.io/updates/hudson.plugins.sonar.SonarRunnerInstaller.json https://updates.jenkins.io/updates/hudson.plugins.sonar.MsBuildSonarQubeRunnerInstaller.json The files are automatically updated when a new version of SonarScanner or SonarScanner for MSBuild is published, thanks to crawlers written in groovy: https://github.com/jenkins-infra/crawler/blob/master/sonarqubescanner.groovy https://github.com/jenkins-infra/crawler/blob/master/sonarqubescannermsbuild.groovy License Copyright 2007-2025 SonarSource. Licensed under the GNU Lesser General Public License, Version 3.0 Version: 2.18Released: 2 months agoRequires Jenkins 2.462.3ID: sonarInstalled on 18.8% of\u00a0controllersView detailed version informationLinksGitHubOpen issues (Jira)Report an issue (Jira)Pipeline Step ReferenceJavadocLabelsExternal Site/Tool IntegrationsBuild ReportsMaintainersDuarte MenesesJulien HENRYthomas verinWouter AdmiraalEric GiffonJacekZipengHelp us improve this page!To propose a change submit a pull request to the plugin page on GitHub.Previous Security WarningsServer authentication token stored in plain textAffects version 2.8 and earlier",
+  "title": "SonarQube Scanner | Jenkins plugin",
+  "headers": [
+    "SonarQube Scanner",
+    "License"
+  ],
+  "links": [
+    "https://plugins.jenkins.io/sonar/releases/",
+    "https://plugins.jenkins.io/sonar/issues/",
+    "https://plugins.jenkins.io/sonar/dependencies/",
+    "https://plugins.jenkins.io/sonar/healthscore/",
+    "https://www.jenkins.io/doc/pipeline/steps/sonar",
+    "https://plugins.jenkins.io/ui/search/?labels=external",
+    "https://plugins.jenkins.io/ui/search/?labels=report",
+    "https://plugins.jenkins.io/ui/search/?query=dmeneses",
+    "https://plugins.jenkins.io/ui/search/?query=henryju",
+    "https://plugins.jenkins.io/ui/search/?query=tomverin",
+    "https://plugins.jenkins.io/ui/search/?query=wouteradmiraal",
+    "https://plugins.jenkins.io/ui/search/?query=ericg",
+    "https://plugins.jenkins.io/ui/search/?query=jacekporeda",
+    "https://plugins.jenkins.io/ui/search/?query=zipengwu"
+  ]
+}

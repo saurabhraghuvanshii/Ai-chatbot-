@@ -1,0 +1,41 @@
+{
+  "content": "Platform Information > User Documentation Home User Handbook User Handbook Overview Installing Jenkins Platform Information Java Support Policy Linux Support Policy Windows Support Policy Browser compatibility Servlet Container Support Policy Upgrading to Java 11 Upgrading to Java 17 Using Jenkins Pipeline Blue Ocean Managing Jenkins Securing Jenkins System Administration Scaling Jenkins Troubleshooting Jenkins Glossary Tutorials Guided Tour Jenkins Pipeline Using Build Tools Resources Pipeline Syntax reference Pipeline Steps reference LTS Upgrade guides \u00e2\u0087\u0090 Installing Jenkins Index Java Support Policy \u00e2\u0087\u0092 Platform Information Chapter Sub-Sections Java Support Policy Linux Support Policy Windows Support Policy Browser compatibility Servlet Container Support Policy Upgrading to Java 11 Upgrading to Java 17 This chapter provides information about the operating systems, web browsers, Java versions, and other software components commonly used to run Jenkins. The content is suitable for users of all levels, especially those getting started with Jenkins. Support policies The Jenkins project defines support levels for platform components such as Java versions, operating systems, web browsers, and servlet containers. Support levels provide guidance on the effort Jenkins project contributors generally apply to issues related to platform components. Details of the support policies are available in the specific support policy pages: Java Linux Windows Servlet containers Web browsers Java support and upgrade information In addition to support policies, this chapter provides information on upgrading your Java version in Jenkins. Depending on your current Java version, there are instructions for upgrading to Java 11 and upgrading to Java 17. \u00e2\u0087\u0090 Installing Jenkins Index Java Support Policy \u00e2\u0087\u0092 Was this page helpful? Please submit your feedback about this page through this quick form. Alternatively, if you don't wish to complete the quick form, you can simply indicate if you found this page helpful? Yes No Submit See existing feedback here.",
+  "title": "\nPlatform Information\n",
+  "headers": [
+    "\nPlatform Information\n",
+    "Support policies",
+    "Java support and upgrade information"
+  ],
+  "links": [
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-java/",
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-linux/",
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-windows/",
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-web-browsers/",
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-servlet-containers/",
+    "https://www.jenkins.io/doc/book/platform-information/upgrade-java-to-11/",
+    "https://www.jenkins.io/doc/book/platform-information/upgrade-java-to-17/",
+    "https://www.jenkins.io/doc/book/using/",
+    "https://www.jenkins.io/doc/book/pipeline/",
+    "https://www.jenkins.io/doc/book/blueocean/",
+    "https://www.jenkins.io/doc/book/managing/",
+    "https://www.jenkins.io/doc/book/security/",
+    "https://www.jenkins.io/doc/book/system-administration/",
+    "https://www.jenkins.io/doc/book/scaling/",
+    "https://www.jenkins.io/doc/book/troubleshooting/",
+    "https://www.jenkins.io/doc/book/glossary/",
+    "https://www.jenkins.io/doc/pipeline/tour/getting-started/",
+    "https://www.jenkins.io/doc/tutorials#pipeline",
+    "https://www.jenkins.io/doc/tutorials#tools",
+    "https://www.jenkins.io/doc/book/pipeline/syntax/",
+    "https://www.jenkins.io/doc/pipeline/steps/",
+    "https://www.jenkins.io/doc/upgrade-guide/",
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-java/",
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-linux/",
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-windows/",
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-servlet-containers/",
+    "https://www.jenkins.io/doc/book/platform-information/support-policy-web-browsers/",
+    "https://www.jenkins.io/doc/book/platform-information/upgrade-java-to-11/",
+    "https://www.jenkins.io/doc/book/platform-information/upgrade-java-to-17/",
+    "https://www.jenkins.io/doc/feedback-form/"
+  ]
+}
